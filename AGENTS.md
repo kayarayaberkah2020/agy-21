@@ -91,3 +91,23 @@ membuat Implementation Plan:
 - Jawaban ringkas dan langsung ke inti.
 - Jika instruksi saya ambigu, ajukan satu pertanyaan klarifikasi
   di dalam plan, bukan menebak.
+
+## 6. Definisi "Selesai" dan Verifikasi
+Dilarang menyatakan tugas selesai sebelum semua poin ini terpenuhi:
+
+1. Jalankan kodenya sendiri: build, start aplikasi, atau jalankan
+   perintah terkait. Baca outputnya, jangan berasumsi berhasil.
+2. Jika ada error atau warning, perbaiki dan jalankan ulang
+   sampai bersih. Jangan berhenti di percobaan pertama.
+3. Uji setiap fitur yang saya minta satu per satu (jalur normal
+   dan minimal satu kasus gagal). Gunakan browser agent untuk UI.
+4. Buat checklist dari permintaan saya di awal plan, lalu centang
+   satu per satu dengan bukti (output perintah, hasil test, atau screenshot).
+5. Cek bahwa semua file yang dijanjikan benar-benar ada dan
+   saling terhubung (import, route, konfigurasi, dependensi terpasang).
+6. Laporan akhir wajib berisi:
+   - Checklist hasil dengan status per item
+   - Perintah yang dijalankan beserta hasilnya
+   - Hal yang BELUM berfungsi atau tidak bisa diuji, dengan jujur
+7. Jangan menulis "sudah selesai" jika ada item yang belum terbukti jalan.
+   Nyatakan apa adanya.
