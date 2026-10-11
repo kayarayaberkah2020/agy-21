@@ -85,6 +85,7 @@ membuat Implementation Plan:
 7. Rancang arsitektur supaya fitur Fase 2 dan 3 bisa ditambahkan nanti
    tanpa menulis ulang dari nol (kode modular, konfigurasi terpisah,
    struktur folder yang jelas).
+8. Terapkan Idempotency (no duplicate side effects)
 
 ## 5. Komunikasi
 - Gunakan bahasa Indonesia.
